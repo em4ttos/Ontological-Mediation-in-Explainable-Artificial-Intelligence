@@ -45,6 +45,14 @@ Machine-readable citation metadata is available in [CITATION.cff](CITATION.cff).
 - **Eduardo M. P. Coelho** — conceptualization, methodology, formal analysis, investigation, software, validation, visualization, writing.
 - **Marcello Peixoto Bax** — supervision and critical review.
 
+## Licensing
+
+Documentation and other non-software textual or visual materials in this repository are licensed, unless otherwise stated, under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** license.
+
+See [LICENSE-DOCUMENTATION.md](LICENSE-DOCUMENTATION.md).
+
+Software and source-code licensing may be specified separately for code artifacts.
+
 ## Current development
 
 The repository is being progressively populated with the formalization, ontological artifacts, OMCR specifications, diagrams, case-study materials, and other appendices associated with the research.
