@@ -9,7 +9,6 @@ authors:
     given-names: "Marcello Peixoto"
 repository-code: "https://github.com/em4ttos/Ontological-Mediation-in-Explainable-Artificial-Intelligence"
 url: "https://github.com/em4ttos/Ontological-Mediation-in-Explainable-Artificial-Intelligence"
-license: "CC-BY-4.0"
 preferred-citation:
   type: article
   title: "Ontological Mediation in Explainable Artificial Intelligence: Concept-Based Models and Ontology-Grounded Explanatory Justification"
