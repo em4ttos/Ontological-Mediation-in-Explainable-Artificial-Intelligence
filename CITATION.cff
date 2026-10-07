@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this repository or its supplementary materials, please cite the associated SciELO preprint."
+title: "Ontological Mediation in Explainable Artificial Intelligence — Supplementary Materials"
+type: software
+authors:
+  - family-names: "Coelho"
+    given-names: "Eduardo M. P."
+  - family-names: "Bax"
+    given-names: "Marcello Peixoto"
+repository-code: "https://github.com/em4ttos/Ontological-Mediation-in-Explainable-Artificial-Intelligence"
+url: "https://github.com/em4ttos/Ontological-Mediation-in-Explainable-Artificial-Intelligence"
+license: "CC-BY-4.0"
+preferred-citation:
+  type: article
+  title: "Ontological Mediation in Explainable Artificial Intelligence: Concept-Based Models and Ontology-Grounded Explanatory Justification"
+  authors:
+    - family-names: "Coelho"
+      given-names: "Eduardo M. P."
+    - family-names: "Bax"
+      given-names: "Marcello Peixoto"
+  year: 2026
+  doi: "10.1590/SciELOPreprints.18206"
+  url: "https://preprints.scielo.org/index.php/scielo/preprint/view/18206"
