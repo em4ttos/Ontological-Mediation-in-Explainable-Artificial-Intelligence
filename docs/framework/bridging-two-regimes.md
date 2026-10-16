@@ -36,7 +36,7 @@ flowchart LR
     end
 
     CSI -->|Ontological unpacking| ONT
-    ONT -->|Ontologically-Mediated Concept Rules (OMCR)| CSI
+    ONT -->|"Ontologically Mediated Concept Rules (OMCRs)"| CSI
     SIV --> JUST["**Justification**"]
     CSI --> JUST
 
