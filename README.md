@@ -50,8 +50,8 @@ The repository is organized around the following research-artifact structure. Ma
 
 ### Framework at a glance
 
-- Full Conceptual Map — *in preparation for repository publication*
-- Contribution-Focused Map — *in preparation for repository publication*
+- [**Full Conceptual Map**](docs/framework/full-conceptual-map.md)
+- [**Contribution-Focused Conceptual Map**](docs/framework/contribution-focused-map.md)
 
 ### Formalization and conceptual specification
 
