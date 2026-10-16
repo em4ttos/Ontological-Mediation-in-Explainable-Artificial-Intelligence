@@ -1,5 +1,3 @@
-<!-- Draft prepared for review. Not yet published. -->
-
 # Concept-Rule Base (CRB)
 
 ## Conceptualization, Knowledge Graphs, Generalization, and Research Scope
