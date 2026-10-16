@@ -149,9 +149,9 @@ This leads to a stronger general definition:
 > **Concept-Rule Base (CRB).** A Concept-Rule Base is a structured, source-relative representation of explicit concept-level relations that are natively expressed by, extracted from, or faithfully reconstructed from a computational decision or inference process. A CRB specifies human-interpretable concepts, their relevant relations or compositions, and their connection to conclusions or outputs. Depending on the underlying source and reconstruction method, Conceptual Rules may employ logical conjunction and disjunction, qualitative contribution polarity, quantitative weights, graded or fuzzy concept satisfaction, thresholds, or functional relations such as those occurring in classification and regression. These representational structures remain computationally and representationally relative: they do not by themselves constitute ontological commitments or justificatory constraints.
 
 ```text
-CRB != Ontology
-CRB != OMCR
-Predictive Contribution != Justificatory Support
+CRB ≠ Ontology
+CRB ≠ OMCR
+Predictive Contribution ≠ Justificatory Support
 ```
 
 ---
@@ -259,7 +259,7 @@ The following section examines one increasingly important case: **Knowledge Grap
 A Knowledge Graph can instantiate or realize a CRB, but a Knowledge Graph as such is not automatically a CRB. The rigorous distinction is:
 
 ```text
-KnowledgeGraph !=> CRB
+KnowledgeGraph ≠> CRB
 KnowledgeGraph + Explicit Concept-Level Decision Structure + Output Linkage + Fidelity => CRB
 ```
 
@@ -296,7 +296,7 @@ HippocampalAtrophy AND LowMMSE AND AdvancedAge -> DementiaPrediction
 ## 3.3 KG as realization, not identity
 
 ```text
-CRB != KnowledgeGraph
+CRB ≠ KnowledgeGraph
 KnowledgeGraph may realize / encode / express a CRB
 ```
 
@@ -335,7 +335,7 @@ A graph must distinguish domain-semantic relations from decision/predictive rela
 Person --hasAge--> Age                         (domain)
 Age --positiveContribution--> Prediction      (model-relative)
 
-Reality != Representation != Prediction
+Reality ≠ Representation ≠ Prediction
 ```
 
 ## 3.7 A single graph may contain multiple layers
@@ -407,7 +407,7 @@ Disjunction can arise naturally from the plurality of inferential paths, althoug
 ## 4.3 Concept retrieval is not yet a CRB
 
 ```text
-Concept Retrieval != CRB
+Concept Retrieval ≠ CRB
 Concept-Relation Reconstruction => CRB   (under the required conditions)
 ```
 
@@ -462,7 +462,7 @@ $$
 should not be ontologically identified with the ontology axiom itself. One is domain knowledge; the other is a concept-rule representation of an inferential structure.
 
 ```text
-Domain Knowledge != Conceptual Rule Representation
+Domain Knowledge ≠ Conceptual Rule Representation
 ```
 
 ## 4.8 General definition suggested by this case
@@ -554,7 +554,7 @@ This enables questions such as:
 A useful conceptual distinction is:
 
 ```text
-Annotation != Semantic Grounding != Ontological Unpacking != Ontological Mediation
+Annotation ≠ Semantic Grounding ≠ Ontological Unpacking ≠ Ontological Mediation
 ```
 
 **Annotation** may map an output to an ontology concept. **Semantic grounding** links a model-level concept to a domain referent. **Ontological Unpacking** exposes commitments in a Conceptual Rule. **Ontological Mediation** operationalizes the relevant ontological/normative structures for subsequent assessment. Treating all four as “ontologization” obscures important differences.
