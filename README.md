@@ -40,6 +40,38 @@ Please cite the associated SciELO preprint:
 
 Machine-readable citation metadata is available in [CITATION.cff](CITATION.cff).
 
+## Supplementary materials
+
+The repository is organized around the following research-artifact structure. Materials are added progressively as they reach a publishable state.
+
+### Research contributions
+
+- **Concept-Rule Base (CRB)** — post-preprint conceptual generalization of the concept-level representational layer.
+
+### Framework at a glance
+
+- Full Conceptual Map — *in preparation for repository publication*
+- Contribution-Focused Map — *in preparation for repository publication*
+
+### Formalization and conceptual specification
+
+- [**Concept-Rule Base (CRB): Conceptualization, Knowledge Graphs, Generalization, and Research Scope**](docs/formalization/concept-rule-base.md)
+- Ontological Mediation — *in preparation*
+- Ontologically Mediated Concept Rules (OMCRs) — *to be added*
+- Justificatory Assessment — *in preparation*
+
+### Critical questions and responses
+
+- *To be added.*
+
+### Peer-review context
+
+- *To be added.*
+
+### Development status
+
+The CRB document above is a **post-preprint supplementary development**. Its model-family classification and broader source-agnostic generalization are presented as research hypotheses and analytical developments, not as claims already established by the associated preprint.
+
 ## Authors
 
 - **Eduardo M. P. Coelho** — conceptualization, methodology, formal analysis, investigation, software, validation, visualization, writing.
