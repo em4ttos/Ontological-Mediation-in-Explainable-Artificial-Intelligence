@@ -52,6 +52,7 @@ The repository is organized around the following research-artifact structure. Ma
 
 - [**Full Conceptual Map**](docs/framework/full-conceptual-map.md)
 - [**Contribution-Focused Conceptual Map**](docs/framework/contribution-focused-map.md)
+- [**Bridging Two Computational and Epistemic Regimes**](docs/framework/bridging-two-regimes.md)
 
 ### Formalization and conceptual specification
 
