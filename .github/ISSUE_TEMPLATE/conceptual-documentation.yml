@@ -1,0 +1,50 @@
+name: Conceptual or documentation issue
+description: Report a conceptual inconsistency, terminology problem, documentation error, figure issue, or bibliographic correction.
+title: "[Concept/Docs] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping improve the research materials. Please identify the affected artifact as precisely as possible.
+  - type: dropdown
+    id: issue_type
+    attributes:
+      label: Type of issue
+      options:
+        - Conceptual inconsistency
+        - Terminology or notation
+        - Documentation clarity
+        - Figure or diagram
+        - Bibliographic correction
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: affected
+    attributes:
+      label: Affected file or section
+      placeholder: "e.g. docs/formalization/concept-rule-base.md, Section 4.3"
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Explain the issue and why it matters.
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested correction or clarification
+      description: Optional proposed wording, formal change, or alternative interpretation.
+  - type: textarea
+    id: references
+    attributes:
+      label: Relevant references
+      description: Include literature or other evidence when applicable.
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
