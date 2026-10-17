@@ -46,7 +46,7 @@ The repository is organized around the following research-artifact structure. Ma
 
 ### Research contributions
 
-- **From Ontological Unpacking to Justificatory Assessment: The Main Contributions of Our Approach to Explainable AI** — *to be added*.
+- [**From Ontological Unpacking to Justificatory Assessment: Main Contributions of the Ontological Mediation Framework for Explainable AI**](docs/research-contributions/from-ontological-unpacking-to-justificatory-assessment.md)
 
 ### Framework at a glance
 
