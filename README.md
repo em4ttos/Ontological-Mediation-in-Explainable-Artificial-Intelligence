@@ -46,7 +46,7 @@ The repository is organized around the following research-artifact structure. Ma
 
 ### Research contributions
 
-- **Concept-Rule Base (CRB)** — post-preprint conceptual generalization of the concept-level representational layer.
+- **From Ontological Unpacking to Justificatory Assessment: The Main Contributions of Our Approach to Explainable AI** — *to be added*.
 
 ### Framework at a glance
 
