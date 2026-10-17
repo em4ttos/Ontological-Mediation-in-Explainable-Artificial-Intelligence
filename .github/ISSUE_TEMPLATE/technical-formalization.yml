@@ -1,0 +1,55 @@
+name: Technical or formalization issue
+description: Report an issue involving Lean, code, ontology artifacts, RDF/OWL, serialization, scripts, or other technical material.
+title: "[Technical] "
+labels: []
+body:
+  - type: dropdown
+    id: component
+    attributes:
+      label: Component
+      options:
+        - Lean formalization
+        - Ontology / RDF / OWL
+        - Script or code
+        - Data or serialization
+        - Build / tooling
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: affected
+    attributes:
+      label: Affected file or component
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: observed
+    attributes:
+      label: Observed behavior
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Include the smallest reproducible example when possible.
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Tool versions, platform, dependencies, or reasoner/compiler version where relevant.
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant output or logs
+      render: shell
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
