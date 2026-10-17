@@ -1,0 +1,36 @@
+name: Research proposal
+description: Propose a research extension, comparison, formal development, or new application related to the framework.
+title: "[Research Proposal] "
+labels: []
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Research question
+      description: State the proposed research question or problem.
+    validations:
+      required: true
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Motivation
+      description: Explain why the question is relevant to the repository or framework.
+    validations:
+      required: true
+  - type: textarea
+    id: relation
+    attributes:
+      label: Relation to the current framework
+      description: Identify relevant components such as CRB, Ontological Mediation, OMCRs, Ontological Unpacking, or Justificatory Assessment.
+    validations:
+      required: true
+  - type: textarea
+    id: literature
+    attributes:
+      label: Relevant literature
+      description: Provide references that help situate the proposal.
+  - type: textarea
+    id: contribution
+    attributes:
+      label: Proposed contribution
+      description: Describe what new artifact, argument, formalization, experiment, or comparison is envisioned.
