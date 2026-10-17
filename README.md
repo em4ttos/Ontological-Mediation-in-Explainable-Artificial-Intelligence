@@ -73,6 +73,16 @@ The repository is organized around the following research-artifact structure. Ma
 
 The CRB document above is a **post-preprint supplementary development**. Its model-family classification and broader source-agnostic generalization are presented as research hypotheses and analytical developments, not as claims already established by the associated preprint.
 
+## Contributing and community standards
+
+Contributions are welcome through issues and pull requests. Direct changes to the main branch are not part of the contribution workflow; proposed changes should be reviewed and approved by the maintainer before incorporation.
+
+- [Contributing guidelines](CONTRIBUTING.md)
+- [Code of Conduct](CODE_OF_CONDUCT.md)
+- [Security policy](SECURITY.md)
+- Structured issue forms are available under [Issues](../../issues/new/choose).
+- Pull requests use the repository's contribution template.
+
 ## Authors
 
 - **Eduardo M. P. Coelho** — conceptualization, methodology, formal analysis, investigation, software, validation, visualization, writing.
