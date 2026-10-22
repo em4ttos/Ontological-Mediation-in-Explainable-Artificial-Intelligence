@@ -65,6 +65,11 @@ The repository is organized around the following research-artifact structure. Ma
 
 - *To be added.*
 
+### Philosophical background
+
+- **Philosophical Background: Influences and Affinities of the Ontological Mediation Framework** — *to be added*
+- **Philosophical Background: Influences and Affinities of the Ontological Mediation Framework — Diagram** — *to be added*
+
 ### Peer-review context
 
 - *To be added.*
