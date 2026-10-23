@@ -35,27 +35,6 @@ The central idea is that a model may remain sub-symbolic in its internal mechani
 
 The CRB concept was introduced to characterize the broader class of computational artifacts whose outputs, internal structures, or reconstructed relations satisfy the relevant concept-level conditions. Its role is therefore **diagnostic, classificatory, and scope-defining**, rather than procedural within the Ontological Mediation architecture.
 
-```text
-Candidate Computational Artifact
-        |
-        v
-CRB Admissibility Criteria
-        |
-        +--> qualifies --> suitable concept-level explanatory structure
-        |                   may enter the Ontological Mediation framework
-        |
-        +--> does not qualify --> framework not directly applicable in the same form
-```
-
-For the motivating CEM case, the internal explanatory sequence remains:
-
-```text
-CEM -> Conceptual Rules -> Ontological Unpacking
-    -> Ontological Mediation / OMCRs -> Justificatory Assessment
-```
-
-Accordingly, **CRB is not an intermediate processing layer between Conceptual Rules and Ontological Unpacking**. It is a generalization used to determine whether artifacts from CEMs or other computational families provide the kind of concept-level structure to which the framework can be applied.
-
 ## 1.2 Preliminary definition
 
 A preliminary formulation is:
@@ -277,7 +256,7 @@ The following section examines one increasingly important case: **Knowledge Grap
 A Knowledge Graph can instantiate or realize a CRB, but a Knowledge Graph as such is not automatically a CRB. The rigorous distinction is:
 
 ```text
-KnowledgeGraph ≠> CRB
+KnowledgeGraph ⇏ CRB
 KnowledgeGraph + Explicit Concept-Level Decision Structure + Output Linkage + Fidelity => CRB
 ```
 
