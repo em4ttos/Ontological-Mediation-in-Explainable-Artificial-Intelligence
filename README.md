@@ -63,7 +63,7 @@ The repository is organized around the following research-artifact structure. Ma
 
 ### Critical questions and responses
 
-- *To be added.*
+- [**Critical Questions and Responses**](docs/critical-questions-and-responses.md)
 
 ### Philosophical background
 
