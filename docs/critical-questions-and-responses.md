@@ -23,8 +23,8 @@ This document is organized as a set of targeted questions and responses concerni
    - [6.1. What is Ontological Unpacking and what does it do?](#q6-1)
    - [6.2. Why is Ontological Unpacking not simply formal translation?](#q6-2)
    - [6.3. What does Ontological Unpacking contribute to the architecture?](#q6-3)
-7. [CRB and the broader applicability of the framework](#q-crb)
-8. [The meaning of ~Age versus omission of Age](#q-age)
+7. [CRB and the broader applicability of the framework](#q7)
+8. [The meaning of ~Age versus omission of Age](#q8)
 
 <a id="q1"></a>
 
@@ -596,9 +596,9 @@ Accordingly, Ontological Unpacking does not decide whether a Conceptual Rule sho
 
 Its architectural contribution can therefore be stated succinctly: OU does not justify the explanation; it makes the explanation sufficiently explicit to be meaningfully mediated and critically assessed.
 
-<a id="q-crb"></a>
+<a id="q7"></a>
 
-## What role does the Concept-Rule Base (CRB) concept play in determining the broader applicability of the framework beyond CEMs?
+## 7. What role does the Concept-Rule Base (CRB) concept play in determining the broader applicability of the framework beyond CEMs?
 
 The proposed framework was initially developed and illustrated using Concept Embedding Models (CEMs), from which Conceptual Rules can be reconstructed at a human-interpretable concept level. However, the use of CEMs as the motivating case should not be interpreted as restricting the framework to that particular model family. The later notion of a Concept-Rule Base (CRB) was introduced precisely to generalize this point.
 
@@ -636,9 +636,9 @@ The broader implication is that the framework is not conceptually tied to CEMs. 
 
 The role of CRB can therefore be summarized as follows, CRB characterizes the kind of concept-level structure that makes a computational artifact potentially compatible with the framework; it does not constitute a processing stage within that framework.
 
-<a id="q-age"></a>
+<a id="q8"></a>
 
-## Why do terms such as ~Age in a Conceptual Rule have a different meaning from simply omitting Age from the rule, and how should this distinction be interpreted ontologically?
+## 8. Why do terms such as ~Age in a Conceptual Rule have a different meaning from simply omitting Age from the rule, and how should this distinction be interpreted ontologically?
 
 The distinction between *~Age* and the omission of *Age* from a Conceptual Rule is important because it separates explicit model-level representation from the absence of an explicit statement, and both from ontological existence in the represented domain.
 
