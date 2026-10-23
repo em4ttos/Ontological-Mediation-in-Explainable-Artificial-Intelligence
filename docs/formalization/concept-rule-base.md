@@ -12,7 +12,7 @@
 **Version:** 0.2 — October 2026  
 **Documentation license:** CC BY 4.0
 
-> **Terminological note.** The published article uses **Conceptual Rule** for the explicit concept-level representational unit associated with an inferential or decisional structure. **Concept-Rule Base (CRB)** is a post-preprint generalization introduced in this supplementary material. A CRB may contain or organize one or more Conceptual Rules and their associated concept-level relations, or encode a conceptual structure from which such rules can be derived. CRB therefore does not retroactively replace the terminology of the published article.
+> **Terminological and architectural note.** The published article uses **Conceptual Rule** for the explicit concept-level representational unit associated with an inferential or decisional structure. **Concept-Rule Base (CRB)** is a post-preprint generalization introduced in this supplementary material. A CRB may contain or organize one or more Conceptual Rules and their associated concept-level relations, or encode a conceptual structure from which such rules can be derived. CRB therefore does not retroactively replace the terminology of the published article. Importantly, **CRB is not an additional processing stage within the Ontological Mediation framework**. It is a conceptual and methodological reference used to characterize whether a computational artifact exposes, generates, or permits the faithful reconstruction of the kind of concept-level structure required for the framework to be applicable beyond the motivating CEM case.
 
 ## Contents
 
@@ -20,7 +20,7 @@
 2. [Candidate AI Model Families for CRB Generation or Reconstruction](#2-candidate-ai-model-families-for-crb-generation-or-reconstruction)
 3. [Can a Knowledge Graph Qualify as a CRB?](#3-can-a-knowledge-graph-qualify-as-a-crb)
 4. [Ontological KG, Query/Reasoning, and CRB Extraction](#4-ontological-kg-queryreasoning-and-crb-extraction)
-5. [Broader Importance: CRB as an Intermediate Representation](#5-broader-importance-crb-as-an-intermediate-representation-for-ai-kg-xai-and-neuro-symbolic-systems)
+5. [Broader Importance: CRB as an Applicability and Generalization Framework](#5-broader-importance-crb-as-an-applicability-and-generalization-framework-for-ai-kg-xai-and-neuro-symbolic-systems)
 6. [Consolidated Synthesis](#6-consolidated-synthesis)
 
 ---
@@ -31,14 +31,30 @@ Building on the terminological distinction above, the **Concept-Rule Base** shou
 
 ## 1.1 Core conceptual role
 
-The central idea is that a model may remain sub-symbolic in its internal mechanism while its decision can still be expressed, or faithfully reconstructed, at an explicit concept level.
+The central idea is that a model may remain sub-symbolic in its internal mechanism while its decision can still be expressed, or faithfully reconstructed, at an explicit concept level. The motivating CEM case provides one concrete instance of this situation, but it should not determine the limits of framework applicability.
+
+The CRB concept was introduced to characterize the broader class of computational artifacts whose outputs, internal structures, or reconstructed relations satisfy the relevant concept-level conditions. Its role is therefore **diagnostic, classificatory, and scope-defining**, rather than procedural within the Ontological Mediation architecture.
 
 ```text
-Predictive Model -> Concept-Level Reconstruction -> Concept-Rule Base
-CRB -> Ontological Unpacking -> Ontological Mediation -> OMCRs -> Justificatory Assessment
+Candidate Computational Artifact
+        |
+        v
+CRB Admissibility Criteria
+        |
+        +--> qualifies --> suitable concept-level explanatory structure
+        |                   may enter the Ontological Mediation framework
+        |
+        +--> does not qualify --> framework not directly applicable in the same form
 ```
 
-The CRB therefore belongs to the **representational/predictive layer**. It need not itself be ontological, and it is not itself justificatory.
+For the motivating CEM case, the internal explanatory sequence remains:
+
+```text
+CEM -> Conceptual Rules -> Ontological Unpacking
+    -> Ontological Mediation / OMCRs -> Justificatory Assessment
+```
+
+Accordingly, **CRB is not an intermediate processing layer between Conceptual Rules and Ontological Unpacking**. It is a generalization used to determine whether artifacts from CEMs or other computational families provide the kind of concept-level structure to which the framework can be applied.
 
 ## 1.2 Preliminary definition
 
@@ -48,7 +64,7 @@ A preliminary formulation is:
 
 ## 1.3 Why CRB cannot mean only a classical rule set
 
-If a CRB were restricted to rules of the form $C_1 \land C_2 \rightarrow y$, it would fit the CEM/rule-extraction case but would exclude other concept-level structures that can support the same explanatory and ontological-mediation role.
+If a CRB were restricted to rules of the form $C_1 \land C_2 \rightarrow y$, it would fit the CEM/rule-extraction case but would exclude other concept-level structures that may satisfy the same general applicability conditions for subsequent use within the Ontological Mediation framework.
 
 Examples include:
 
@@ -146,7 +162,7 @@ Explicitness + Interpretability + Fidelity (+ Traceability)
 
 This leads to a stronger general definition:
 
-> **Concept-Rule Base (CRB).** A Concept-Rule Base is a structured, source-relative representation of explicit concept-level relations that are natively expressed by, extracted from, or faithfully reconstructed from a computational decision or inference process. A CRB specifies human-interpretable concepts, their relevant relations or compositions, and their connection to conclusions or outputs. Depending on the underlying source and reconstruction method, Conceptual Rules may employ logical conjunction and disjunction, qualitative contribution polarity, quantitative weights, graded or fuzzy concept satisfaction, thresholds, or functional relations such as those occurring in classification and regression. These representational structures remain computationally and representationally relative: they do not by themselves constitute ontological commitments or justificatory constraints.
+> **Concept-Rule Base (CRB).** A Concept-Rule Base is a structured, source-relative representation of explicit concept-level relations that are natively expressed by, extracted from, or faithfully reconstructed from a computational decision or inference process. A CRB specifies human-interpretable concepts, their relevant relations or compositions, and their connection to conclusions or outputs. Depending on the underlying source and reconstruction method, Conceptual Rules may employ logical conjunction and disjunction, qualitative contribution polarity, quantitative weights, graded or fuzzy concept satisfaction, thresholds, or functional relations such as those occurring in classification and regression. These representational structures remain computationally and representationally relative: they do not by themselves constitute ontological commitments or justificatory constraints. Qualifying as a CRB therefore indicates that the relevant kind of concept-level structure is available; it does not insert a CRB stage into the internal Ontological Mediation process.
 
 ```text
 CRB ≠ Ontology
@@ -158,9 +174,11 @@ Predictive Contribution ≠ Justificatory Support
 
 # 2. Candidate AI Model Families for CRB Generation or Reconstruction
 
-The approach is not intended as a universal explanation framework for arbitrary computational artifacts or scientific theories. Its motivating target is a predictive system whose decision can be reconstructed at the level of human-interpretable concepts. More precisely, the framework addresses cases in which lower-level features are associated or composed into decision-relevant concepts and these concepts support a classification, prediction, diagnosis, or recommendation.
+The CRB generalization is not intended as a universal explanation framework for arbitrary computational artifacts or scientific theories. Its purpose is narrower: to identify which computational artifacts provide, or permit the faithful reconstruction of, a sufficiently explicit concept-level structure to make the Ontological Mediation framework potentially applicable.
 
-Native concept-based architectures, such as CBMs, CEMs, and neural concept reasoners, provide direct instances of this setting; post-hoc concept-based methods may also qualify when they recover a faithful and sufficiently explicit conceptual structure from a conventional black-box model. Although the present work is motivated primarily by neural black-box models, the underlying distinction between feature-level evidence and concept-level representation may also apply to intrinsically interpretable, symbolic, probabilistic, graph-based, and hybrid systems.
+The motivating target is a predictive system whose decision can be reconstructed at the level of human-interpretable concepts. More precisely, the framework addresses cases in which lower-level features are associated or composed into decision-relevant concepts and these concepts support a classification, prediction, diagnosis, recommendation, or other computational conclusion.
+
+Native concept-based architectures, such as CBMs, CEMs, and neural concept reasoners, provide direct candidate instances of this setting; post-hoc concept-based methods may also qualify when they recover a faithful and sufficiently explicit conceptual structure from a conventional black-box model. Although the motivating work is primarily concerned with neural black-box models, the CRB criteria allow the applicability question to be asked of intrinsically interpretable, symbolic, probabilistic, graph-based, and hybrid systems as well.
 
 ## 2.1 Candidate model families
 
@@ -350,7 +368,7 @@ where:
 - $G_{Ont}$ may represent the ontological meaning of the concepts;
 - $G_{Mapping}$ may represent explicit mediation between them.
 
-This is potentially a direct computational realization of the broader architecture.
+This layered graph representation may make explicit both a CRB-qualifying concept structure and the ontological resources relevant to later mediation. It should not, however, be interpreted as making CRB an internal processing stage of the broader architecture.
 
 ---
 
@@ -471,9 +489,11 @@ Domain Knowledge ≠ Conceptual Rule Representation
 
 ---
 
-# 5. Broader Importance: CRB as an Intermediate Representation for AI, KG, XAI, and Neuro-Symbolic Systems
+# 5. Broader Importance: CRB as an Applicability and Generalization Framework for AI, KG, XAI, and Neuro-Symbolic Systems
 
-The generalization above is potentially more important than merely extending the definition of CRB. It places the CRB at a convergence point among **Knowledge Graphs, XAI, neuro-symbolic AI, ontologies**, and increasingly systems that combine **large language models with structured knowledge**.
+The generalization above is potentially more important than merely extending a CEM-oriented rule description. It provides a way to ask whether heterogeneous computational systems expose, generate, or permit the faithful reconstruction of the kind of concept-level structure required by the Ontological Mediation framework.
+
+The central contribution of CRB at this stage is therefore **not to add another layer to the framework's processing pipeline**, but to characterize a broader class of potentially compatible source artifacts.
 
 ## 5.1 The community trend and the relevant conceptual gap
 
@@ -486,25 +506,46 @@ Embedding <-> KG
 LLM -> KG Retrieval -> Reasoning
 ```
 
-These operations are not semantically equivalent. In particular, mapping a prediction to an ontology class does not necessarily expose the conceptual structure of the decision.
+These operations are not semantically equivalent. In particular, mapping a prediction to an ontology class does not necessarily expose the concept-level structure of the decision. The CRB conceptualization helps formulate an applicability question prior to Ontological Unpacking or Ontological Mediation: **is there an explicit, interpretable, faithful, and traceable concept-level structure available to be analyzed?**
 
-## 5.2 CRB as a candidate intermediate concept-level layer
+## 5.2 CRB as an applicability test rather than an intermediate layer
 
-```text
-Subsymbolic Output -> Concept Reconstruction -> CRB -> Ontological Unpacking
-```
-
-Rather than attempting to “ontologize” a numerical output directly, the CRB can be investigated as an intermediate concept-level layer that makes explicit what is being ontologically mediated: the **concept-level structure that connects the computational process to its conclusion**.
-
-## 5.3 Source-agnostic intermediate representation
-
-At the level of its abstract schema, the CRB can be viewed as a **source-agnostic concept-level intermediate representation**. At the level of each concrete instance, however, the CRB remains **source-relative**: its provenance, fidelity, and admissibility are assessed with respect to the process from which it was obtained.
+The distinction should be represented as:
 
 ```text
-Heterogeneous AI mechanisms -> Common concept-level representation
+Candidate Source Artifact
+        |
+        v
+Does it satisfy the CRB admissibility criteria?
+        |
+        +--> Yes: a suitable concept-level structure is available
+        |        and the Ontological Mediation framework may be applicable
+        |
+        +--> No: the framework is not directly applicable in the same form
 ```
 
-Potential sources include:
+This should not be rewritten as:
+
+```text
+Source -> CRB -> Ontological Unpacking -> Ontological Mediation
+```
+
+because that notation incorrectly turns CRB into a mandatory processing stage.
+
+For the motivating CEM case, the relevant internal sequence remains:
+
+```text
+CEM -> Conceptual Rules -> Ontological Unpacking
+    -> Ontological Mediation / OMCRs -> Justificatory Assessment
+```
+
+The CRB generalization operates at another analytical level: it tells us whether non-CEM artifacts can provide concept-level explanatory material sufficiently similar in the relevant respects to serve as starting material for the same framework.
+
+## 5.3 Source-agnostic criteria, source-relative instances
+
+At the level of its abstract schema, CRB is **source-agnostic**: the criteria are not defined by one particular model family. At the level of each concrete instance, however, CRB status is **source-relative**, because fidelity, provenance, and admissibility must be assessed with respect to the computational process from which the concept-level structure was obtained.
+
+Potential source families include:
 
 - Concept-Based Models (CBM, CEM, neural concept reasoners);
 - post-hoc concept methods;
@@ -517,25 +558,23 @@ Potential sources include:
 
 > **LLM-specific caution.** LLM-generated conceptual rules should be treated as **candidate CRB content** unless derivational fidelity to the relevant source process can be established. Linguistic generation alone does not confer conceptual admissibility or epistemic authority.
 
-The same CRB layer can then feed:
+The commonality is therefore not a shared internal architecture. It is the availability of a concept-level explanatory structure satisfying the relevant admissibility conditions.
+
+## 5.4 Knowledge Graphs may occur as sources, representations, or external resources
+
+A Knowledge Graph may occur in several distinct roles:
 
 ```text
-CRB -> OU -> OM -> applicable OMCRs -> Justificatory Assessment
+KG + Reasoner -> candidate concept-level structure -> CRB assessment
+Predictive Model -> reconstructed concept-level structure -> CRB assessment
+Qualifying concept-level structure -> later use of KG / ontology resources during mediation
 ```
 
-## 5.4 The KG can appear before, after, or on both sides of the CRB
-
-```text
-Neural Model -> CRB -> KG / Ontology
-KG + Reasoner -> CRB
-KG1 -> CRB -> Ontological Mediation -> KG2
-```
-
-The invariant element is the **CRB as an explicit conceptual interface**, not the technology that generates or stores it.
+These roles should not be collapsed. A KG may be the source of a CRB-qualifying structure, may represent such a structure, or may provide ontology-based resources relevant to later mediation. None of these possibilities requires CRB to become a processing layer in the Ontological Mediation framework.
 
 ## 5.5 Comparison across heterogeneous mechanisms
 
-If a neural model and a knowledge-based reasoner can both be mapped to CRBs, they become comparable at the concept-rule level rather than at incompatible representational levels such as vectors versus OWL axioms.
+If a neural model and a knowledge-based reasoner both yield structures satisfying the CRB criteria, they become comparable at the concept-rule level rather than only at incompatible implementation levels such as vectors versus OWL axioms.
 
 $$
 CRB_{CEM}\leftrightarrow CRB_{KG}
@@ -549,33 +588,42 @@ This enables questions such as:
 - rule conflict;
 - explanatory divergence.
 
+Such comparison is a use of the CRB abstraction itself; it is conceptually distinct from applying Ontological Unpacking, Ontological Mediation, or Justificatory Assessment to a qualifying explanatory artifact.
+
 ## 5.6 Clarifying “ontologization”
 
-A useful conceptual distinction is:
+A useful conceptual distinction remains:
 
 ```text
 Annotation ≠ Semantic Grounding ≠ Ontological Unpacking ≠ Ontological Mediation
 ```
 
-**Annotation** may map an output to an ontology concept. **Semantic grounding** links a model-level concept to a domain referent. **Ontological Unpacking** exposes commitments in a Conceptual Rule. **Ontological Mediation** operationalizes the relevant ontological/normative structures for subsequent assessment. Treating all four as “ontologization” obscures important differences.
+**Annotation** may map an output to an ontology concept. **Semantic grounding** links a model-level concept to a domain referent. **Ontological Unpacking** exposes commitments in a Conceptual Rule or other qualifying concept-level explanatory structure. **Ontological Mediation** relates that content to the relevant ontological, empirical, contextual, and epistemic-normative resources for subsequent assessment. Treating all four as “ontologization” obscures important differences.
 
-## 5.7 Provenance and circularity
+The CRB conceptualization precedes these distinctions at the level of applicability: it asks whether the source artifact provides the kind of explicit concept-level structure to which these operations can meaningfully be applied.
 
-A provenance-aware design is essential when a KG both generates and evaluates a CRB. Otherwise one risks a circular pattern:
+## 5.7 Provenance and independence remain important
+
+A CRB-qualifying artifact should retain enough provenance to establish the process from which its concept-level relations were derived. This becomes especially important when the same Knowledge Graph, language model, database, or institutional resource appears both in the derivation of the conceptual structure and later in ontological or justificatory processing.
+
+A circular pattern such as:
 
 ```text
-KG -> CRB -> same KG -> "justified"
+Source Resource -> candidate conceptual structure
+same Source Resource -> sole basis for later "justification"
 ```
 
-The CRB should therefore record its derivational source, and future justificatory assessment may need explicit independence or provenance conditions whenever epistemic independence is required.
+may compromise epistemic independence where such independence is required. CRB provenance therefore supports later analysis, but CRB itself does not perform Justificatory Assessment.
 
 ## 5.8 Potential autonomous research contribution
 
-The emerging hypothesis is that CRB may be more than an internal component of the broader ontological-mediation framework. It may become a general representation layer:
+The emerging hypothesis is that CRB may constitute an autonomous conceptual contribution as a **source-agnostic applicability and classification framework for concept-level computational structures**.
 
-> **CRB as a source-agnostic concept-level intermediate representation capable of receiving explicit conceptual structures from neural, statistical, symbolic, graph-based, and hybrid systems, and providing a common interface for ontological unpacking, ontological mediation, and justificatory assessment.**
+It can be stated conservatively as:
 
-This would preserve the CEM as a canonical motivating example without allowing that example to define the limits of the theory.
+> **CRB characterizes a class of explicit, interpretable, source-relative, and derivationally faithful concept-level structures through which heterogeneous computational systems can be assessed for potential compatibility with the Ontological Mediation framework.**
+
+This preserves the CEM as the canonical motivating example without allowing that example to define the limits of the theory.
 
 - **CRB** = the broader class of Concept-Rule Bases, independent of any particular model family.
 - **CEM-CRB** = the subclass of CRBs reconstructed from, instantiated by, or exemplified through Concept Embedding Models (CEMs).
@@ -590,13 +638,13 @@ The hyphen in `CEM-CRB` is part of the compound label and does not denote subtra
 
 ## 5.9 Research caution
 
-The conceptual direction appears strong, but claims of scientific novelty should only be made after a targeted literature review. The immediate contribution is therefore best treated as a **research hypothesis and architectural generalization** to be tested against existing work in concept-based XAI, rule extraction, Knowledge Graph reasoning, neuro-symbolic AI, explanation graphs, and concept-level intermediate representations.
+The conceptual direction appears strong, but claims of scientific novelty should only be made after a targeted literature review. The immediate contribution is therefore best treated as a **research hypothesis and scope generalization** to be tested against existing work in concept-based XAI, rule extraction, Knowledge Graph reasoning, neuro-symbolic AI, explanation graphs, and concept-level representational abstractions.
 
 ---
 
 # 6. Consolidated Synthesis
 
-Across the four analyses, the CRB evolves from a CEM-oriented notion of reconstructed concept rules into a broader, representation-independent layer characterized by **explicit concept-level inferential or decisional structure**.
+Across the analyses above, the CRB evolves from a CEM-oriented notion of reconstructed concept rules into a broader, representation-independent **applicability and classification construct** characterized by explicit concept-level inferential or decisional structure.
 
 Its defining properties are not:
 
@@ -607,13 +655,41 @@ Its defining properties are not:
 The relevant criteria are:
 
 - **concept explicitness**;
+- **interpretability**;
 - **structured relation to conclusions**;
 - **derivational faithfulness**;
 - **source/process relativity**;
 - **traceability**.
 
+The resulting relation to the Ontological Mediation framework should be represented at two distinct levels.
+
+At the level of applicability:
+
 ```text
-Source Process -> Explicit Conceptual Structure -> CRB -> Ontological/Justificatory Processing
+Candidate Computational Artifact
+        -> CRB Admissibility Assessment
+        -> qualifying / non-qualifying concept-level structure
+```
+
+At the level of the internal framework, once suitable concept-level explanatory material is available:
+
+```text
+Qualifying Concept-Level Explanatory Structure
+        -> Ontological Unpacking
+        -> Ontological Mediation / OMCRs
+        -> Justificatory Assessment
+```
+
+For the motivating CEM case, the qualifying explanatory structure is supplied by reconstructed Conceptual Rules. Other computational families may provide analogous structures if they satisfy the CRB criteria.
+
+Therefore:
+
+```text
+CRB characterizes applicability; it does not constitute a processing stage.
+CEM is a motivating instance; it does not define the framework's limits.
+CRB ≠ Ontology
+CRB ≠ OMCR
+Predictive Contribution ≠ Justificatory Support
 ```
 
 This formulation leaves open the exact ontological status of `ConceptualRule`, which should be addressed separately. A promising working hypothesis is that `ConceptualRule` is a **representational entity** that expresses a concept-level inferential/decisional structure and may be realized by formulas, equations, decision paths, graph fragments, or other formal artifacts.
