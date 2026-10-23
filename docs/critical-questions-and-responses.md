@@ -1,5 +1,33 @@
 # Critical questions and responses
 
+This document is organized as a set of targeted questions and responses concerning the conceptual, ontological, and epistemic commitments of the Ontological Mediation framework. The questions do not need to be read sequentially: readers may use the contents below to move directly to the issue relevant to their doubt. Each response is intended to be reasonably self-contained, so some deliberate redundancy is retained where needed for clarity.
+
+## Contents
+
+1. [Dual-process analogy: System 1 and System 2](#q1)
+2. [Why the limitation of XAI is partly ontological](#q2)
+3. [Explanation vs. Justificatory Assessment](#q3)
+4. [Semantic Grounding, Ontological Grounding, and Ontological Unpacking](#q4)
+5. [Important distinctions and clarifications regarding OMCRs](#q5)
+   - [5.1. Are OMCRs universally necessary?](#q5-1)
+   - [5.2. Why is an OMCR not simply another Conceptual Rule?](#q5-2)
+   - [5.3. Why can OMCRs not be derived automatically from Conceptual Rules alone?](#q5-3)
+   - [5.4. Why is a faithful Conceptual Rule not yet justificatorily sufficient?](#q5-4)
+   - [5.5. What is the role of human and expert knowledge?](#q5-5)
+   - [5.6. Where does normative authority come from?](#q5-6)
+   - [5.7. Why is an OMCR not simply an ontology axiom?](#q5-7)
+   - [5.8. Why can an OMCR not simply be replaced by an IF-THEN production rule?](#q5-8)
+   - [5.9. What does Weak Truthbearer mean?](#q5-9)
+   - [5.10. What does the Cognitive Reserve OMCR illustrate?](#q5-10)
+6. [Ontological Unpacking within the framework](#q6)
+   - [6.1. What is Ontological Unpacking and what does it do?](#q6-1)
+   - [6.2. Why is Ontological Unpacking not simply formal translation?](#q6-2)
+   - [6.3. What does Ontological Unpacking contribute to the architecture?](#q6-3)
+7. [CRB and the broader applicability of the framework](#q-crb)
+8. [The meaning of ~Age versus omission of Age](#q-age)
+
+<a id="q1"></a>
+
 ## 1. How do the authors map Daniel Kahneman’s Dual-Process Theory of Cognition (System 1 and System 2) onto the architecture proposed in the paper?
 
 The framework draws on a heuristic analogy, also found in parts of the neuro-symbolic and hybrid AI literature, between Kahneman’s dual-process account of cognition and the two computational and epistemic regimes involved in the proposed architecture. The analogy is intended to clarify their different explanatory modalities; it is not a psychological claim that neural and symbolic AI literally instantiate human System 1 and System 2 cognition. Its main purpose is to contrast a regime in which model-relevant regularities are learned largely through implicit statistical representations with another in which semantic, ontological, and inferential commitments can be made explicit and critically inspected.
@@ -15,6 +43,8 @@ The framework does not seek to replace one regime with the other, nor does it as
 Within this architecture, Ontologically Mediated Concept Rules (OMCRs) should therefore not be understood simply as outputs of a symbolic “System 2.” They are mediated explanatory artifacts connecting model-derived conceptual relations with explicit ontological and epistemic-normative structures. Their representation and assessment lie closer to the symbolic regime, but their architectural role is precisely to mediate between the two regimes.
 
 Accordingly, the System 1/System 2 parallel should be understood as an explanatory metaphor rather than a literal cognitive or computational equivalence. System 1-like processes contribute statistically learned patterns and predictions; System 2-like structures provide explicit semantic, ontological, and inferential resources for examining them. Ontological Mediation articulates the interface between these regimes without collapsing their distinct roles.
+
+<a id="q2"></a>
 
 ## 2. Why do the authors argue that an important limitation of current Explainable AI (XAI) is ontological in nature?
 
@@ -45,6 +75,8 @@ The role of Ontologically Mediated Concept Rules (OMCRs) is therefore not simply
 The ontological limitation can therefore be stated more precisely: a model explanation may reveal which features or concepts matter without yet establishing what those concepts commit us to ontologically, how they are related to structures in the domain, or whether the resulting explanatory claim is epistemically and normatively admissible.
 
 Ontologies help address the first part of this problem by making domain commitments explicit and structurally inspectable. The additional contribution of the framework is to connect that ontological clarification to subsequent mediation and justificatory assessment, thereby extending explainability from the intelligibility of model behavior toward the critical evaluation of model-derived explanatory claims.
+
+<a id="q3"></a>
 
 ## 3. Why does the framework distinguish explanation from Justificatory Assessment, and how does this distinction change the epistemic role of model-derived conceptual rules and the interpretation of justificatory outcomes?
 
@@ -85,6 +117,8 @@ This proposal is also continuous with, but not reducible to, the ontological-exp
 Accordingly, the framework should not be read as replacing ontological clarification, but as extending the explanatory path from model-derived explanation to ontological clarification, to ontological mediation, to justificatory assessment
 
 The philosophical background of this distinction lies primarily in epistemology and the philosophy of science, where justification has long been treated as a question distinct from mere explanation or interpretation. Formal ontology contributes a complementary role by making explicit the ontological commitments that become objects of subsequent epistemic assessment. Strictly speaking, however, this is not a central concern of formal ontology as such. Even in Husserl, who developed an important account of justification and evidence, these issues belong primarily to his phenomenology and epistemology rather than to his formal ontology. In [Philosophical background](https://github.com/em4ttos/Ontological-Mediation-in-Explainable-Artificial-Intelligence/blob/main/docs/formalization/concept-rule-base.md) (*in preparation*) we outline some philosophical affinities between our framework and more recent discussions of justification, evidential support, defeasibility, and contextual dependence.
+
+<a id="q4"></a>
 
 ## 4. What is the difference between Semantic Grounding, Ontological Grounding, and Ontological Unpacking, and why is semantic grounding alone insufficient for explanations in high-stakes domains?
 
@@ -138,7 +172,11 @@ The insufficiency of Semantic Grounding can therefore be stated more precisely. 
 
 Within the architecture, the three processes therefore perform distinct but complementary roles: Semantic Grounding connects representation to empirical meaning; Ontological Grounding situates that meaning within an explicit domain structure; Ontological Unpacking exposes the commitments presupposed by the explanatory representation. Their combination does not guarantee justification, but it makes model-derived explanations sufficiently explicit to become objects of subsequent Ontological Mediation and Justificatory Assessment.
 
+<a id="q5"></a>
+
 ## 5. Important distinctions and clarifications regarding OMCRs
+
+<a id="q5-1"></a>
 
 ### 5.1. Are OMCRs universally necessary for explanation, or only constitutive of the proposed architecture?
 
@@ -155,6 +193,8 @@ Accordingly, the contribution should be understood as proposing one engineered r
 The notion of Weak Truthbearer occupies a somewhat broader level. In the present work, it is instantiated through the OMCR–Justificatory Assessment architecture, but the underlying idea—that a truth-apt explanatory claim may remain defeasible and context-dependent in its justificatory standing—may have broader philosophical applicability. The present paper does not attempt to establish that broader generalization.
 
 The framework should therefore be read as proposing a specific architecture for a delimited explanatory problem class, not as claiming that OMCRs are a universally necessary component of explanation or the only possible mechanism through which explanation and justification can be connected.
+
+<a id="q5-2"></a>
 
 ### 5.2. Why is an OMCR not simply another Conceptual Rule?
 
@@ -173,6 +213,8 @@ If all of the criteria used to assess a model-derived relation were inferred fro
 An OMCR should therefore not be understood as a reformatted or enriched Conceptual Rule. It is a mediated explanatory artifact in which a model-derived conceptual relation is situated relative to independently established domain and epistemic constraints so that it can later become the object of Justificatory Assessment.
 
 The central distinction is therefore: Conceptual Rule is a model-derived explanatory relation. OMCR is an onto-epistemically situated representation of that relation for subsequent critical assessment.
+
+<a id="q5-3"></a>
 
 ### 5.3. Why can OMCRs not simply be derived automatically from Conceptual Rules alone?
 
@@ -193,6 +235,8 @@ The framework therefore does not claim, *Conceptual Rule → OMCR* is impossible
 A more adequate representation is *Conceptual Rule + Ontological Unpacking + validated domain, empirical, contextual, and Normative-Epistemic resources → OMCR*
 
 The exact construction process may be manual, semi-automatic, or automated. What matters is that the OMCR incorporates sources of interpretation and assessment that are not epistemically reducible to the predictive relation from which the original Conceptual Rule was reconstructed.
+
+<a id="q5-4"></a>
 
 ### 5.4. Why is a faithful and human-interpretable Conceptual Rule not yet epistemically sufficient for justificatory purposes, and what role does an OMCR play in addressing this limitation?
 
@@ -228,6 +272,8 @@ The distinction can therefore be summarized as follows:
 
 - *OMCR → ontologically grounded and epistemically situated mediation of that content for subsequent Justificatory Assessment.*
 
+<a id="q5-5"></a>
+
 ### 5.5. What is the role of human and expert knowledge in OMCRs?
 
 Human and expert knowledge plays an important role in the framework, but not because every OMCR must be manually written or individually adjudicated by a domain expert. The more fundamental requirement is that the ontological, empirical, contextual, and normative resources used to mediate a model-derived explanation must have epistemic authority that is not reducible to the predictive model itself.
@@ -249,6 +295,8 @@ At the same time, expert knowledge is itself defeasible and revisable. Scientifi
 Accordingly, the role of expertise can be summarized as follows: experts and other authoritative external resources help provide or validate the ontological, empirical, contextual, and normative conditions under which model-derived explanatory claims can be critically assessed.
 
 The construction and application of OMCRs may then be manual, semi-automatic, or automated, provided that the relevant resources remain explicit, traceable, and epistemically independent of the predictive model whose explanation is being evaluated.
+
+<a id="q5-6"></a>
 
 ### 5.6. Where does the normative authority come from that allows an OMCR to constrain, qualify, or trigger further assessment of a model-derived explanation?
 
@@ -294,6 +342,8 @@ The central distinction can therefore be summarized as follows:
 >
 > Justificatory Assessment evaluates the resulting explanatory claim.
 
+<a id="q5-7"></a>
+
 ### 5.7. Why is an OMCR not simply an ontology axiom?
 
 An Ontologically Mediated Concept Rule (OMCR) should not be confused with an ontology axiom, even though the two may interact closely and may sometimes be represented within the same ontology-based computational infrastructure.
@@ -332,6 +382,8 @@ The distinction can therefore be summarized as follows: an ontology axiom formal
 
 Thus, an OMCR may be implemented within an ontology-based environment without being reducible to a domain-ontology axiom. Its identity is determined not simply by where or how it is encoded, but by the explanatory and mediating role it performs within the architecture.
 
+<a id="q5-8"></a>
+
 ### 5.8. Why can’t an OMCR simply be replaced by an IF-THEN production rule? Could ordinary IF-THEN production rules perform the same function, making ontology unnecessary?
 
 At the purely operational level, an Ontologically Mediated Concept Rule (OMCR) may indeed be represented in an IF-THEN form, and a conventional rule engine may be fully capable of executing the same extensional condition.
@@ -368,6 +420,8 @@ The framework therefore does not claim that ontology enables rule execution. It 
 
 For this reason, an OMCR may be operationally implemented as an IF-THEN rule while remaining conceptually distinct from an ordinary production rule. Its distinctive role lies not in computational exclusivity, but in the explicit mediation of model-derived explanatory content through domain and epistemic commitments.
 
+<a id="q5-9"></a>
+
 ### 5.9. What does it mean to say that an OMCR functions as a Weak Truthbearer, and why does this not mean that the OMCR determines whether the underlying classification is true or false?
 
 The notion of Weak Truthbearer is intended to characterize the epistemic status of the explanatory claim articulated through an Ontologically Mediated Concept Rule (OMCR)**.**
@@ -399,6 +453,8 @@ The distinction can therefore be represented as follows:
 3.  Justificatory Assessment evaluates the standing of that explanatory claim under the relevant conditions.
 
 An OMCR therefore does not determine the truth of the model’s classification. It provides an onto-epistemically structured basis for assessing whether the explanation offered for that classification is currently defensible. This is why Epistemically Unstable cannot be equated with false, and Admissible cannot be equated with **true**. The framework evaluates the justificatory status of explanatory claims, not the binary truth-value of the underlying classification itself.
+
+<a id="q5-10"></a>
 
 ### 5.10. How does the Cognitive Reserve OMCR illustrate the role of Ontological Mediation in exposing epistemic limitations, evidential tensions, and potential sources of bias in high-stakes predictive models?
 
@@ -448,7 +504,11 @@ Accordingly, the Cognitive Reserve OMCR should not be understood as an automatic
 
 In a nutshell, the example illustrates that Ontological Mediation does not guarantee that the model reaches the correct clinical conclusion. It makes it possible to identify situations in which a predictively plausible explanation may still require qualification, additional evidence, or further expert assessment before being regarded as epistemically adequate.
 
+<a id="q6"></a>
+
 ## 6. Important aspects of the OU, considering its integration into our framework
+
+<a id="q6-1"></a>
 
 ### 6.1. What is Ontological Unpacking in the proposed architecture, what does it do to model-derived Conceptual Rules, and how does it differ from merely translating a predictive rule into an ontology?
 
@@ -484,6 +544,8 @@ Finally, Ontological Unpacking must not be confused with simply translating a pr
 
 Accordingly, OU is not an all-purpose explanatory mechanism and does not itself determine whether a model-derived explanation should be accepted. Its contribution is more specific and prior: to make explicit what the explanatory representation ontologically commits us to so that later mediation and justificatory assessment can operate on a better-defined object of analysis.
 
+<a id="q6-2"></a>
+
 ### 6.2. Why is Ontological Unpacking not simply a translation into OWL, RDF, OntoUML, or another formalism?
 
 Ontological Unpacking (OU) must be distinguished from a purely representational conversion. Changing the language of a rule is not the same as making its ontological commitments explicit.
@@ -503,6 +565,8 @@ For this reason, OntoUML can be particularly useful for representing the results
 The same general principle applies to other representational technologies. No notation or formalism performs Ontological Unpacking merely by being used. Ontological Unpacking is an analytical operation whose purpose is to expose the ontological commitments presupposed by an explanatory representation. Formal languages and modeling technologies provide possible means for representing, communicating, or operationalizing the results of that analysis.
 
 Thus, the central distinction is translation changes the representation of the rule; Ontological Unpacking changes the explicitness of the ontological commitments under which the rule is interpreted.
+
+<a id="q6-3"></a>
 
 ### 6.3. What does Ontological Unpacking contribute to the architecture?
 
@@ -531,6 +595,8 @@ The architectural sequence is therefore:
 Accordingly, Ontological Unpacking does not decide whether a Conceptual Rule should be accepted. It makes explicit what the rule commits us to under the adopted domain interpretation, thereby providing Ontological Mediation and Justificatory Assessment with a more ontologically determinate object of analysis.
 
 Its architectural contribution can therefore be stated succinctly: OU does not justify the explanation; it makes the explanation sufficiently explicit to be meaningfully mediated and critically assessed.
+
+<a id="q-crb"></a>
 
 ## What role does the Concept-Rule Base (CRB) concept play in determining the broader applicability of the framework beyond CEMs?
 
@@ -569,6 +635,8 @@ Thus, CRB provides a diagnostic and classificatory framework for generalizing th
 The broader implication is that the framework is not conceptually tied to CEMs. CEMs constitute one important and motivating instance of a more general class of computational systems capable of supplying suitable concept-level explanatory structures.
 
 The role of CRB can therefore be summarized as follows, CRB characterizes the kind of concept-level structure that makes a computational artifact potentially compatible with the framework; it does not constitute a processing stage within that framework.
+
+<a id="q-age"></a>
 
 ## Why do terms such as ~Age in a Conceptual Rule have a different meaning from simply omitting Age from the rule, and how should this distinction be interpreted ontologically?
 
