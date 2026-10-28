@@ -154,7 +154,7 @@ The distinction becomes particularly clear in simple mappings. Assigning a model
 
 The three operations are therefore complementary but not reducible to a single linear sequence:
 
-1.  Semantic Grounding establishes or specifies meaningful connection to empirical or referential content.
+1.  Semantic Grounding establishes or specifies a meaningful connection to empirical or referential content.
 
 2.  Ontological Grounding situates that content within an explicit account of the kinds of entities, properties, and relations that constitute the domain.
 
@@ -244,7 +244,7 @@ A Conceptual Rule reconstructed from a concept-based model may faithfully repres
 
 The distinction can be stated simply, faithfulness asks whether the Conceptual Rule adequately represents the model-derived relation; justification asks whether the resulting explanatory claim deserves acceptance under the relevant ontological, empirical, contextual, and epistemic-normative conditions.
 
-A faithful Conceptual Rule can therefore provide important explanatory information about the model. It may show which concepts participate in a decision, how they are related, and how their configuration contributes to a prediction or classification. However, this does not by itself establish what kinds of entities, properties, relations, measurements, roles, disp ositions, social constructs, or other domain elements those concepts represent. Nor does it establish whether the relation expressed by the rule is compatible with relevant domain commitments, supported by independent empirical evidence, applicable under the circumstances of the case, or acceptable according to the relevant scientific, professional, institutional, ethical, or epistemic standards.
+A faithful Conceptual Rule can therefore provide important explanatory information about the model. It may show which concepts participate in a decision, how they are related, and how their configuration contributes to a prediction or classification. However, this does not by itself establish what kinds of entities, properties, relations, measurements, roles, dispositions, social constructs, or other domain elements those concepts represent. Nor does it establish whether the relation expressed by the rule is compatible with relevant domain commitments, supported by independent empirical evidence, applicable under the circumstances of the case, or acceptable according to the relevant scientific, professional, institutional, ethical, or epistemic standards.
 
 A Conceptual Rule may therefore be explanatorily informative while remaining ontologically underspecified and justificatorily indeterminate. This is the point at which Ontological Unpacking and Ontological Mediation become necessary within the proposed architecture.
 
@@ -304,7 +304,7 @@ OMCRs do not derive their normative force from ontologies alone. Ontologies cont
 
 At the same time, OMCRs remain ontologically grounded: the entities, properties, relations, measurements, and domain categories to which they refer are interpreted through the relevant ontology. Thus, the ontology does not generate the normative rule; it provides the domain commitments under which that rule can be semantically well-defined.
 
-The division of labor can be stated simply considering that the ontology tells us what the rule is about; the Normative-Epistemic Context provides the standards under which it should be assessed; the OMCR brings these dimensions together; and Justificatory Assessment determines the resulting justificatory status.
+The division of labor can be stated simply, considering that the ontology tells us what the rule is about; the Normative-Epistemic Context provides the standards under which it should be assessed; the OMCR brings these dimensions together; and Justificatory Assessment determines the resulting justificatory status.
 
 The Normative-Epistemic Context is understood as a historically situated, intersubjective, and revisable structure incorporating the standards and resources through which a relevant epistemic community evaluates claims. Depending on the domain, it may include scientific knowledge, evidential standards, shared domain commitments, professional practices, institutional requirements, ethical and regulatory constraints, methodological conventions, known limitations and defeaters, and the historically available state of knowledge.
 
@@ -626,7 +626,7 @@ If the answer is negative, the framework is not directly applicable to that arti
 
 The distinction is important because the CRB should not be inserted into the framework’s internal processing sequence. Instead, two different analytical levels should be distinguished.
 
-- At the level of the original framework application, as an case stydy: CEM → Conceptual Rules → Ontological Unpacking → Ontological Mediation / OMCR → Justificatory Assessment.
+- At the level of the original framework application, as a case study: CEM → Conceptual Rules → Ontological Unpacking → Ontological Mediation / OMCR → Justificatory Assessment.
 
 - At the level of scope and applicability: Candidate computational artifact → CRB admissibility criteria → determination of whether the required concept-level structure is available.
 
