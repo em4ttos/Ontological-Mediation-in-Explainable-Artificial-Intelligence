@@ -1,20 +1,21 @@
 # Ontological Mediation in Explainable Artificial Intelligence
 
-Supplementary materials for the preprint:
+Supplementary materials for the manuscript:
 
 **Eduardo M. P. Coelho and Marcello Peixoto Bax.**  
 *Ontological Mediation in Explainable Artificial Intelligence: Concept-Based Models and Ontology-Grounded Explanatory Justification.*
 
 ## Preprint
 
-The manuscript is published in **SciELO Preprints**.
+The manuscript was submitted to **SciELO Preprints** and was initially made publicly available under the DOI shown below. SciELO subsequently returned the submission to moderation; while that process is pending, the public SciELO record and DOI resolution may be temporarily unavailable.
 
-- **SciELO Preprints:** https://preprints.scielo.org/index.php/scielo/preprint/view/18206
-- **DOI:** https://doi.org/10.1590/SciELOPreprints.18206
+- **Stable repository copy (PDF):** [Ontological Mediation in Explainable Artificial Intelligence](preprint/ontological-mediation-in-explainable-artificial-intelligence.pdf)
+- **SciELO Preprints record (currently under moderation):** https://preprints.scielo.org/index.php/scielo/preprint/view/18206
+- **SciELO-assigned DOI (resolution may be temporarily unavailable):** https://doi.org/10.1590/SciELOPreprints.18206
 
 ## Repository purpose
 
-This repository is the technical companion to the preprint. It is intended to host supplementary and evolving research artifacts related to the Ontological Mediation framework, including:
+This repository is the technical companion to the manuscript. It is intended to host supplementary and evolving research artifacts related to the Ontological Mediation framework, including:
 
 - formal specifications and Lean developments;
 - ontological models and mappings;
@@ -24,19 +25,21 @@ This repository is the technical companion to the preprint. It is intended to ho
 - code, notebooks, and implementation artifacts;
 - additional tables, notes, and documentation.
 
-The repository complements the scholarly preprint; the SciELO record and DOI above should be treated as the canonical reference for the manuscript.
+The repository provides a stable access copy of the manuscript while the SciELO submission is under moderation. If and when the SciELO record is publicly restored, its DOI may again be used as the preferred bibliographic reference.
 
 ## Paper status
 
 The manuscript was peer-reviewed and accepted for presentation and publication in the proceedings of the OSETAI workshop at FOIS/JOWO 2026. Following acceptance, the paper was withdrawn because the authors were unable to complete registration and attend the event; consequently, it was not included in the final workshop program or proceedings.
 
-The manuscript was subsequently published as a preprint by SciELO Preprints.
+The manuscript was later submitted to SciELO Preprints and was initially made publicly available by the platform. SciELO subsequently returned the submission to moderation; the platform has not provided a release date. A stable copy is therefore maintained in this repository.
 
 ## Citation
 
-Please cite the associated SciELO preprint:
+While the SciELO record remains under moderation, please cite the manuscript using the repository copy:
 
-> Coelho, Eduardo M. P.; Bax, Marcello Peixoto. *Ontological Mediation in Explainable Artificial Intelligence: Concept-Based Models and Ontology-Grounded Explanatory Justification*. SciELO Preprints, 2026. https://doi.org/10.1590/SciELOPreprints.18206
+> Coelho, Eduardo M. P.; Bax, Marcello Peixoto. *Ontological Mediation in Explainable Artificial Intelligence: Concept-Based Models and Ontology-Grounded Explanatory Justification*. Preprint manuscript, 2026. [Repository PDF](preprint/ontological-mediation-in-explainable-artificial-intelligence.pdf).
+
+The SciELO-assigned DOI is **10.1590/SciELOPreprints.18206**; its public resolution may be temporarily unavailable while moderation is pending.
 
 Machine-readable citation metadata is available in [CITATION.cff](CITATION.cff).
 
