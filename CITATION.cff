@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use this repository or its supplementary materials, please cite the associated SciELO preprint."
+message: "If you use this repository or its supplementary materials, please cite the associated manuscript. The SciELO record is currently under moderation; the repository PDF is the stable access copy."
 title: "Ontological Mediation in Explainable Artificial Intelligence — Supplementary Materials"
 type: software
 authors:
@@ -18,5 +18,4 @@ preferred-citation:
     - family-names: "Bax"
       given-names: "Marcello Peixoto"
   year: 2026
-  doi: "10.1590/SciELOPreprints.18206"
-  url: "https://preprints.scielo.org/index.php/scielo/preprint/view/18206"
+  url: "https://github.com/em4ttos/Ontological-Mediation-in-Explainable-Artificial-Intelligence/blob/main/preprint/ontological-mediation-in-explainable-artificial-intelligence.pdf"
