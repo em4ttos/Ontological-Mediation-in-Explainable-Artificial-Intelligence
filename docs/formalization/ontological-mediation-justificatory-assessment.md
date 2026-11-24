@@ -430,6 +430,6 @@ Candidates(r) → 𝒜(r) → ℛ(r)
 
 J ⟶\[NLG\] NaturalLanguageJustification
 
-# Note 
+## Note
 
 The formalizations developed here will again be submitted to Lean 3, but the current version already results from an iterative and spiral process of successive back-and-forth movements between conceptual elaboration and computational formalization, in which different versions were implemented, tested, criticized, and reformulated as formalization made explicit ambiguities, hidden assumptions, redundancies, or distinctions that had not yet been sufficiently established. The present consolidation incorporates the results of this process—including the elimination of structures introduced exploratorily and later considered unnecessary—and will now be submitted to a new systematic round of formalization, understood not as a simple final coding stage, but as an additional instrument for consistency testing, hypothesis explication, and conceptual refinement.
