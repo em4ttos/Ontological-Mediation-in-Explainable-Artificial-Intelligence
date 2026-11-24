@@ -57,9 +57,7 @@ The repository is organized around the following research-artifact structure. Ma
 ### Formalization and conceptual specification
 
 - [**Concept-Rule Base (CRB): Conceptualization, Knowledge Graphs, Generalization, and Research Scope**](docs/formalization/concept-rule-base.md)
-- Ontological Mediation — *in preparation*
-- Ontologically Mediated Concept Rules (OMCRs) — *to be added*
-- Justificatory Assessment — *in preparation*
+- [**Ontological Mediation + Justificatory Assessment (OM + JA): Consolidated Conceptual and Formal Specification**](docs/formalization/ontological-mediation-justificatory-assessment.md)
 
 ### Critical questions and responses
 
