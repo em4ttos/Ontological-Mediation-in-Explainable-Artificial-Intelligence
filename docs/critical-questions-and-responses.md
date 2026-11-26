@@ -142,7 +142,7 @@ Ontological Grounding addresses a different question. It concerns the ontologica
 
 Ontological Grounding therefore connects an explanatory representation to an explicit domain ontology or ontological account capable of constraining its interpretation. Depending on the explanatory needs of the domain, this may make explicit distinctions involving identity and individuation, dependence, part-whole structure, participation, constitution, admissible relations, or other relevant structural constraints.
 
-The difference can therefore be stated succinctly, Semantic Grounding connects a representation to what it denotes or measures; Ontological Grounding constrains how that referent is understood as part of a structured domain reality.
+The difference can therefore be stated succinctly: Semantic Grounding connects a representation to what it denotes or measures; Ontological Grounding constrains how that referent is understood as part of a structured domain reality.
 
 Ontological Unpacking, however, is a different kind of operation. Following [Guizzardi and Guarino (2023)](https://arxiv.org/abs/2304.11124), it is not simply the act of assigning a model concept to an ontology term. Its role is to expose and analyze the ontological commitments already implicit in a conceptual description or explanatory structure.
 
@@ -162,7 +162,7 @@ The three operations are therefore complementary but not reducible to a single l
 
 A concept may therefore be semantically grounded without being ontologically well specified. Likewise, a concept may be mapped to an ontology without the assumptions embedded in the corresponding explanatory rule having been fully unpacked.
 
-This distinction is especially important in high-stakes domains. Empirical or semantic grounding alone cannot prevent a model from learning relationships that are statistically robust but scientifically misleading, contextually inappropriate, or dependent on confounding factors. For example, an association between *YearsEducatio***n** and a dementia-related classification may be statistically genuine and semantically well grounded as a measurement while still requiring deeper analysis of what education represents in the domain, how it relates to cognitive reserve, which population characteristics condition that relation, and how it should be interpreted within a specific diagnostic context.
+This distinction is especially important in high-stakes domains. Empirical or semantic grounding alone cannot prevent a model from learning relationships that are statistically robust but scientifically misleading, contextually inappropriate, or dependent on confounding factors. For example, an association between *YearsEducation* and a dementia-related classification may be statistically genuine and semantically well grounded as a measurement while still requiring deeper analysis of what education represents in the domain, how it relates to cognitive reserve, which population characteristics condition that relation, and how it should be interpreted within a specific diagnostic context.
 
 An important boundary must also be preserved: Ontological Grounding does not establish causality. An ontology can constrain which kinds of relations are conceptually or ontologically coherent, but causal validity requires additional assumptions, evidence, or causal methodology. In other words, ontological coherence is a condition on interpretation, not evidence of causal validity.
 
@@ -184,7 +184,7 @@ The framework does not claim that Ontologically Mediated Concept Rules (OMCRs) a
 
 Some claims have a broader epistemic or philosophical scope. These include the distinction between explanation and justification, the defeasibility of justificatory standing, and the possibility that an explanatory claim may be truth-apt without being stably admissible under the relevant epistemic and normative conditions.
 
-Other claims are architecture-specific. OMCRs belong to this second category. Within the proposed framework, they provide the representational mechanism through which model-derived conceptual relations are situated relative to explicit ontological commitments, empirical conditions, contextual restrictions, and epistemic-normative criteria prior to Justificatory Assessment.
+Other claims are architecture-specific. OMCRs belong to this second category. Within the proposed framework, they provide the representational mechanism through which model-derived conceptual relations are situated relative to explicit ontological commitments, empirical conditions, contextual restrictions, and epistemic-normative criteria before Justificatory Assessment.
 
 The necessity claim is therefore internal and conditional rather than universal. OMCRs are necessary within this architecture because they perform a constitutive mediating role between reconstructed conceptual content and the subsequent justificatory process. However, the framework does not claim that every possible architecture connecting explanation and justification must contain OMCRs, nor that no alternative representational mechanism could satisfy similar epistemic requirements.
 
@@ -230,7 +230,7 @@ The crucial distinction is therefore between automation and epistemic self-autho
 
 Otherwise, the architecture would risk circularity: the model would effectively provide both the explanatory relation and the standards by which that relation is evaluated.
 
-The framework therefore does not claim, *Conceptual Rule → OMCR* is impossible to automate. It claims instead, *Conceptual Rule alone → OMCR* is epistemically insufficient.
+The framework therefore does not claim that *Conceptual Rule → OMCR* is impossible to automate. It claims instead that *Conceptual Rule alone → OMCR* is epistemically insufficient.
 
 A more adequate representation is *Conceptual Rule + Ontological Unpacking + validated domain, empirical, contextual, and Normative-Epistemic resources → OMCR*
 
@@ -242,7 +242,7 @@ The exact construction process may be manual, semi-automatic, or automated. What
 
 A Conceptual Rule reconstructed from a concept-based model may faithfully represent relations that are relevant to the model’s predictive behavior and may express those relations through concepts that are readily understandable to humans. Within the proposed framework, however, predictive fidelity and conceptual interpretability do not yet establish justificatory sufficiency.
 
-The distinction can be stated simply, faithfulness asks whether the Conceptual Rule adequately represents the model-derived relation; justification asks whether the resulting explanatory claim deserves acceptance under the relevant ontological, empirical, contextual, and epistemic-normative conditions.
+The distinction can be stated simply: faithfulness asks whether the Conceptual Rule adequately represents the model-derived relation; justification asks whether the resulting explanatory claim deserves acceptance under the relevant ontological, empirical, contextual, and epistemic-normative conditions.
 
 A faithful Conceptual Rule can therefore provide important explanatory information about the model. It may show which concepts participate in a decision, how they are related, and how their configuration contributes to a prediction or classification. However, this does not by itself establish what kinds of entities, properties, relations, measurements, roles, dispositions, social constructs, or other domain elements those concepts represent. Nor does it establish whether the relation expressed by the rule is compatible with relevant domain commitments, supported by independent empirical evidence, applicable under the circumstances of the case, or acceptable according to the relevant scientific, professional, institutional, ethical, or epistemic standards.
 
@@ -284,7 +284,7 @@ Their role can therefore be understood in several complementary ways: as provide
 
 However, the human expert, understood as an individual or group of individuals, is not the only locus in which such expertise may be available. Human expertise may be embodied directly in persons, but it may also be externalized, documented, and stabilized in validated scientific literature, clinical or technical guidelines, regulatory frameworks, curated knowledge bases, institutional policies, and other authoritative domain resources. These resources therefore do not constitute an alternative to human expertise; rather, they are artifacts through which human knowledge, judgment, and accumulated domain expertise are preserved and made available for subsequent use.
 
-Importantly, once such expertise has been externalized in documented or computationally accessible resources, it may be retrieved, integrated, or operationalized through manual, semi-automated, or automated mechanisms**.** These may include information-retrieval systems, knowledge bases, rule engines, semantic technologies, and dedicated language models or other AI systems designed to access, synthesize, or mediate validated domain knowledge. Such computational mechanisms do not themselves constitute the ultimate source of epistemic authority. Their role is to retrieve, organize, transform, or make operational expertise whose authority derives from the underlying human-produced and independently validated sources on which they rely.
+Importantly, once such expertise has been externalized in documented or computationally accessible resources, it may be retrieved, integrated, or operationalized through manual, semi-automated, or automated mechanisms. These may include information-retrieval systems, knowledge bases, rule engines, semantic technologies, and dedicated language models or other AI systems designed to access, synthesize, or mediate validated domain knowledge. Such computational mechanisms do not themselves constitute the ultimate source of epistemic authority. Their role is to retrieve, organize, transform, or make operational expertise whose authority derives from the underlying human-produced and independently validated sources on which they rely.
 
 What matters, therefore, is that the provenance, authority, scope, and epistemic standing of the underlying resources remain explicit and independently assessable, regardless of whether access to them is performed by human experts, computational systems, or hybrid human-machine processes.
 
@@ -300,7 +300,7 @@ The construction and application of OMCRs may then be manual, semi-automatic, or
 
 ### 5.6. Where does the normative authority come from that allows an OMCR to constrain, qualify, or trigger further assessment of a model-derived explanation?
 
-OMCRs do not derive their normative force from ontologies alone. Ontologies contribute explicit domain commitments and structural constraints, whereas normative and justificatory criteria arise from the broader Normative-Epistemic Context (NEC)**.**
+OMCRs do not derive their normative force from ontologies alone. Ontologies contribute explicit domain commitments and structural constraints, whereas normative and justificatory criteria arise from the broader Normative-Epistemic Context (NEC).
 
 At the same time, OMCRs remain ontologically grounded: the entities, properties, relations, measurements, and domain categories to which they refer are interpreted through the relevant ontology. Thus, the ontology does not generate the normative rule; it provides the domain commitments under which that rule can be semantically well-defined.
 
@@ -310,15 +310,15 @@ The Normative-Epistemic Context is understood as a historically situated, inters
 
 These sources are heterogeneous and need not possess the same kind of authority. Scientific evidence, professional guidelines, legal requirements, institutional policies, and methodological standards may constrain an explanatory claim in different ways. The framework therefore should not assume that a criterion is epistemically legitimate merely because it is socially accepted. Its provenance, scope, authority, and contestability remain matters that must themselves be made explicit and remain open to revision.
 
-The ontology and the NEC therefore play complementary but distinct roles. The ontology contributes semantic and ontological structure**:** it specifies the kinds of entities, properties, relations, dependencies, and constraints being assumed. The NEC contributes epistemic and normative standards of admissibility: it provides the background against which one may ask whether a model-derived explanatory claim is sufficiently supported, contextually appropriate, institutionally acceptable, or defeated by relevant counterevidence.
+The ontology and the NEC therefore play complementary but distinct roles. The ontology contributes semantic and ontological structure*:* it specifies the kinds of entities, properties, relations, dependencies, and constraints being assumed. The NEC contributes epistemic and normative standards of admissibility: it provides the background against which one may ask whether a model-derived explanatory claim is sufficiently supported, contextually appropriate, institutionally acceptable, or defeated by relevant counterevidence.
 
 An OMCR mediates between these dimensions and the model-derived explanatory content. Its normative relevance does not arise intrinsically from the rule itself, nor is it produced by the ontology. Rather, the OMCR functions as an onto-epistemically situated explanatory artifact in which independently established domain and normative constraints can be represented in relation to a model-derived conceptual structure.
 
-This distinction is important because an OMCR should not be conflated with the final evaluative procedure. An OMCR may encode or activate conditions under which an explanation should be challenged, qualified, or subjected to additional evidential scrutiny, but Justificatory Assessment remains responsible for assigning the justificatory status of the resulting explanatory claim**.**
+This distinction is important because an OMCR should not be conflated with the final evaluative procedure. An OMCR may encode or activate conditions under which an explanation should be challenged, qualified, or subjected to additional evidential scrutiny, but Justificatory Assessment remains responsible for assigning the justificatory status of the resulting explanatory claim.
 
-For example, an OMCR may represent a conflict between the assumptions underlying a model-derived explanation and relevant domain knowledge; it may identify unresolved contextual conditions; or it may indicate that additional evidence is required. These mediated constraints then provide grounds for Justificatory Assessment to determine whether the explanatory claim **is** Epistemically Admissible, Inadmissible, or Epistemically Unstable**.**
+For example, an OMCR may represent a conflict between the assumptions underlying a model-derived explanation and relevant domain knowledge; it may identify unresolved contextual conditions; or it may indicate that additional evidence is required. These mediated constraints then provide grounds for Justificatory Assessment to determine whether the explanatory claim *is* Epistemically Admissible, Inadmissible, or Epistemically Unstable.
 
-This division of labor prevents the framework from collapsing ontological coherence into normative authority**.** A model-derived explanation may be ontologically coherent and yet fail under relevant evidential, scientific, institutional, ethical, or professional standards. Conversely, the mere fact that an explanation can be consistently represented within an ontology does not make it epistemically admissible.
+This division of labor prevents the framework from collapsing ontological coherence into normative authority. A model-derived explanation may be ontologically coherent and yet fail under relevant evidential, scientific, institutional, ethical, or professional standards. Conversely, the mere fact that an explanation can be consistently represented within an ontology does not make it epistemically admissible.
 
 Normative authority in the framework is also revisable rather than absolute. Scientific knowledge changes, institutional standards evolve, ethical expectations may be reformulated, new evidence may challenge previous assumptions, and domain ontologies themselves may require revision. Accordingly, the justificatory status of an explanatory claim may change over time even if the underlying model output remains unchanged.
 
@@ -328,7 +328,7 @@ This also clarifies the dual determination of OMCRs. Their normative and epistem
 
 The ontological grounding of an OMCR does not require that the entire normative apparatus be encoded in a single domain ontology. Existing ontologies may need to be complemented, aligned, or extended, and additional ontological resources may be introduced when the relevant concepts or relations are not represented in the original ontology.
 
-In the present case study, this relationship is operationalized through the Semantic Data Dictionary (SDD)**,** which functions as a semantic mediation workbench. The SDD records mappings among empirical variables, ontology terms, and OMCR specifications and supports their transformation into computational representations such as SWRL rules, RDF triples, and Knowledge Graph structures. These representations provide an implementation layer through which the mediated relations can be operationalized.
+In the present case study, this relationship is operationalized through the *Semantic Data Dictionary (SDD)*, which functions as a semantic mediation workbench. The SDD records mappings among empirical variables, ontology terms, and OMCR specifications and supports their transformation into computational representations such as SWRL rules, RDF triples, and Knowledge Graph structures. These representations provide an implementation layer through which the mediated relations can be operationalized.
 
 Accordingly, existing domain ontologies do not need to encode the complete normative apparatus of the framework. They provide the ontological grounding of the entities and relations involved, while normative-epistemic criteria are supplied independently by the relevant NEC and subsequently represented over that grounded vocabulary.
 
@@ -394,7 +394,7 @@ A bare production rule does not, by virtue of its syntax alone, make explicit th
 
 These are not questions about whether the rule can be executed. They concern the semantic and ontological commitments presupposed by the explanatory content. This is where Ontological Unpacking and Ontological Mediation become relevant. Ontological Unpacking exposes the commitments implicit in the reconstructed conceptual relation, while Ontological Mediation situates that relation relative to explicit domain structures, empirical conditions, contextual restrictions, and epistemic-normative criteria.
 
-Accordingly, the operational surface of an OMCR may resemble an ordinary IF-THEN rule, but its explanatory role is not exhausted by that syntax. The distinction can be stated as follows, rule execution does not entail Ontological Grounding. And, more generally, operational equivalence does not imply semantic, ontological, or epistemic equivalence.
+Accordingly, the operational surface of an OMCR may resemble an ordinary IF-THEN rule, but its explanatory role is not exhausted by that syntax. The distinction can be stated as follows: rule execution does not entail Ontological Grounding. And, more generally, operational equivalence does not imply semantic, ontological, or epistemic equivalence.
 
 Two systems may execute exactly the same threshold condition and produce the same output while differing substantially in what they make explicit about the meaning, domain commitments, contextual conditions, and epistemic standing of the relation being evaluated.
 
@@ -410,11 +410,11 @@ A useful distinction is:
 
 4.  OMCR mediates model-derived conceptual content through those explicit commitments so that the resulting explanatory claim can be critically examined.
 
-This distinction should not be defended by claiming that ordinary rule engines lack mechanisms such as inheritance, prioritization, consistency checking, constraint handling, or links to external knowledge. Modern rule systems, logic-programming environments, knowledge graphs, and constraint systems may support many such capabilities. The relevant claim is narrower, a production rule considered only as an executable condition does not by itself provide the ontological and justificatory structure required by the type of explanation pursued in the framework.
+This distinction should not be defended by claiming that ordinary rule engines lack mechanisms such as inheritance, prioritization, consistency checking, constraint handling, or links to external knowledge. Modern rule systems, logic-programming environments, knowledge graphs, and constraint systems may support many such capabilities. The relevant claim is narrower: a production rule considered only as an executable condition does not by itself provide the ontological and justificatory structure required by the type of explanation pursued in the framework.
 
 Ontology may also provide computational benefits such as taxonomic inference, consistency checking under appropriate formal semantics, interoperability, and reuse through explicit mappings. These benefits are relevant, but they are secondary to the central explanatory role: making the domain commitments of model-derived conceptual relations explicit and inspectable.
 
-A further distinction must also be preserved, Ontological Grounding is not equivalent to Justification. Ontology can clarify what kinds of entities and relations are being assumed and constrain their coherent interpretation, but it does not by itself determine whether the resulting explanatory claim should be accepted. That requires additional empirical, contextual, and normative-epistemic criteria and remains the role of Justificatory Assessment.
+A further distinction must also be preserved: Ontological Grounding is not equivalent to Justification. Ontology can clarify what kinds of entities and relations are being assumed and constrain their coherent interpretation, but it does not by itself determine whether the resulting explanatory claim should be accepted. That requires additional empirical, contextual, and normative-epistemic criteria and remains the role of Justificatory Assessment.
 
 The framework therefore does not claim that ontology enables rule execution. It claims instead: bare rule execution does not, by itself, provide the ontological grounding and epistemic structure required to make a model-derived explanatory claim justificatorily assessable.
 
@@ -424,19 +424,19 @@ For this reason, an OMCR may be operationally implemented as an IF-THEN rule whi
 
 ### 5.9. What does it mean to say that an OMCR functions as a Weak Truthbearer, and why does this not mean that the OMCR determines whether the underlying classification is true or false?
 
-The notion of Weak Truthbearer is intended to characterize the epistemic status of the explanatory claim articulated through an Ontologically Mediated Concept Rule (OMCR)**.**
+The notion of Weak Truthbearer is intended to characterize the epistemic status of the explanatory claim articulated through an Ontologically Mediated Concept Rule (OMCR).
 
-The central distinction is simple, truth-bearing is not truth-determining. A truthbearer is something that can meaningfully be assessed as true or false; it is not an artifact that automatically determines whether its content is true.
+The central distinction is simple: truth-bearing is not truth-determining. A truthbearer is something that can meaningfully be assessed as true or false; it is not an artifact that automatically determines whether its content is true.
 
 The term is useful because an OMCR does more than preserve a statistical or model-derived relation. It situates that relation within explicit ontological commitments, empirical conditions, contextual restrictions, and epistemic-normative criteria. In doing so, it supports the articulation of an explanatory claim that is sufficiently explicit to become an object of critical assessment.
 
 This is the sense in which the explanatory claim articulated through an OMCR is truth-apt. It can be supported, challenged, defeated, revised, or rejected. The term *truthbearer* therefore marks a transition from a merely predictive or insufficiently articulated relation to a claim whose commitments are explicit enough to participate in epistemic evaluation.
 
-The adjective weak**,** however, is essential. It does not mean that the claim is only “partially true,” nor that truth itself comes in weaker and stronger degrees. Rather, weakness qualifies the claim’s justificatory standing, not its capacity to bear truth.
+The adjective *weak*, however, is essential. It does not mean that the claim is only “partially true,” nor that truth itself comes in weaker and stronger degrees. Rather, weakness qualifies the claim’s justificatory standing, not its capacity to bear truth.
 
 A Weak Truthbearer remains defeasible because its admissibility depends on conditions that may change, remain incomplete, or be contested. These conditions may include the ontological interpretation of the concepts involved, the empirical configuration of the case, available scientific evidence, contextual applicability conditions, domain constraints, institutional or professional standards, and the relevant Normative-Epistemic Context.
 
-An OMCR may therefore provide the structured basis for assessing an explanatory claim as Epistemically Admissible, Inadmissible, or Epistemically Unstable without thereby determining whether the model’s underlying classification is true or false. This distinction is fundamental because classification truth and explanatory admissibility are different objects of evaluation**.**
+An OMCR may therefore provide the structured basis for assessing an explanatory claim as Epistemically Admissible, Inadmissible, or Epistemically Unstable without thereby determining whether the model’s underlying classification is true or false. This distinction is fundamental because classification truth and explanatory admissibility are different objects of evaluation.
 
 Suppose, for example, that a model classifies a patient as *NonDemented*. The OMCR-based mediation and subsequent Justificatory Assessment may indicate that the explanation offered for that classification is epistemically unstable because some of its supporting relations conflict with relevant domain evidence or because important contextual conditions remain unresolved.
 
@@ -452,7 +452,7 @@ The distinction can therefore be represented as follows:
 
 3.  Justificatory Assessment evaluates the standing of that explanatory claim under the relevant conditions.
 
-An OMCR therefore does not determine the truth of the model’s classification. It provides an onto-epistemically structured basis for assessing whether the explanation offered for that classification is currently defensible. This is why Epistemically Unstable cannot be equated with false, and Admissible cannot be equated with **true**. The framework evaluates the justificatory status of explanatory claims, not the binary truth-value of the underlying classification itself.
+An OMCR therefore does not determine the truth of the model’s classification. It provides an onto-epistemically structured basis for assessing whether the explanation offered for that classification is currently defensible. This is why Epistemically Unstable cannot be equated with false, and Admissible cannot be equated with *true*. The framework evaluates the justificatory status of explanatory claims, not the binary truth-value of the underlying classification itself.
 
 <a id="q5-10"></a>
 
@@ -460,7 +460,7 @@ An OMCR therefore does not determine the truth of the model’s classification. 
 
 The Cognitive Reserve OMCR illustrates how Ontological Mediation can reveal situations in which a model-derived explanation appears predictively plausible while remaining epistemically incomplete or potentially misleading when interpreted within the relevant clinical context.
 
-The central lesson of the example is that predictive importance is not equivalent to evidential authority**.**
+The central lesson of the example is that predictive importance is not equivalent to evidential authority.
 
 Consider the rule:
 
@@ -472,7 +472,7 @@ At the level of the predictive model, variables such as YearsEducation, MMSE, nW
 
 The potential problem arises because these variables do not necessarily carry the same kind of evidential significance. High educational attainment and preserved performance on a cognitive screening instrument may support an apparently favorable functional interpretation, while structural neuroanatomical indicators may contribute a different and potentially conflicting evidential perspective.
 
-Ontological Mediation helps make this heterogeneity explicit. YearsEducation is not treated merely as a numerical feature, MMSE merely as another scalar input, and neuroanatomical measurements merely as interchangeable predictors. Their domain meanings, measurement roles, ontological categories, and relations to the explanatory problem become explicit.
+Ontological Mediation helps make this heterogeneity explicit. *YearsEducation* is not treated merely as a numerical feature, MMSE merely as another scalar input, and neuroanatomical measurements merely as interchangeable predictors. Their domain meanings, measurement roles, ontological categories, and relations to the explanatory problem become explicit.
 
 Within the case-study conceptualization, cognitive reserve provides a domain-level hypothesis that may help explain how relatively preserved cognitive performance can coexist with structural changes. Importantly, this hypothesis is not generated or validated by the OMCR itself. Its epistemic relevance depends on independently established domain knowledge, evidence, and applicability conditions represented within the relevant Normative-Epistemic Context.
 
@@ -516,7 +516,7 @@ Ontological Unpacking (OU), inspired by [Guizzardi and Guarino (2023)](https://a
 
 Ontological Unpacking asks a prior question: *What kinds of entities, properties, relations, dependencies, identity conditions, and states of affairs must be made explicit for this Conceptual Rule to be coherently interpreted as being about the domain?*
 
-A rule reconstructed from a concept-based model may be intelligible at the feature or concept level while remaining ontologically underspecified. Terms such as *Age***,** *Sex***,** *YearsEducatio***n,** *nWBV***,** *eTIV***, or** *Dementia* may appear straightforward as model variables, but their ontological status is not determined merely by their presence in the rule.
+A rule reconstructed from a concept-based model may be intelligible at the feature or concept level while remaining ontologically underspecified. Terms such as *Age*, *Sex*, *YearsEducation*, *nWBV*, *eTIV*, or *Dementia* may appear straightforward as model variables, but their ontological status is not determined merely by their presence in the rule.
 
 Ontological Unpacking therefore examines what these terms are taken to represent in the relevant domain interpretation. It may expose distinctions such as: an individual versus a quality inhering in that individual; a quality versus its measured value; a biological condition versus a diagnostic classification; an intrinsic property versus a relational or socially dependent characteristic; an enduring entity versus a temporally dependent state or phase; the bearer of a property versus the observation or measurement through which that property is represented.
 
@@ -556,7 +556,7 @@ A mechanical transformation could represent *nWBV*, *YearsEducation*, and *NonDe
 
 Such a transformation may be technically useful, but it does not necessarily clarify what *nWBV* ontologically represents, what entity bears the relevant biological quality, how that quality relates to a measurement process and measurement result, what kind of entity or status NonDemented denotes, or which identity and dependence conditions are presupposed by the interpretation. If these commitments remain implicit, the rule has been re-encoded, but not ontologically unpacked.
 
-A useful diagnostic question is therefore, did the procedure merely reproduce the vocabulary and relations already explicit in the rule in another representational language, or did it expose ontological distinctions and commitments that were previously implicit?
+A useful diagnostic question is therefore: did the procedure merely reproduce the vocabulary and relations already explicit in the rule in another representational language, or did it expose ontological distinctions and commitments that were previously implicit?
 
 The first is primarily a representational transformation. The second constitutes Ontological Unpacking in the sense adopted by the framework. This distinction also requires some care regarding the technologies involved. OWL, RDF, and OntoUML do not play identical roles. RDF primarily provides a graph-based representational framework; OWL provides formal ontology constructs and semantics; OntoUML is an ontologically well-founded conceptual modeling language specifically designed to support explicit ontological distinctions.
 
@@ -564,7 +564,7 @@ For this reason, OntoUML can be particularly useful for representing the results
 
 The same general principle applies to other representational technologies. No notation or formalism performs Ontological Unpacking merely by being used. Ontological Unpacking is an analytical operation whose purpose is to expose the ontological commitments presupposed by an explanatory representation. Formal languages and modeling technologies provide possible means for representing, communicating, or operationalizing the results of that analysis.
 
-Thus, the central distinction is translation changes the representation of the rule; Ontological Unpacking changes the explicitness of the ontological commitments under which the rule is interpreted.
+Thus, the central distinction is that translation changes the representation of the rule; Ontological Unpacking changes the explicitness of the ontological commitments under which the rule is interpreted.
 
 <a id="q6-3"></a>
 
@@ -578,7 +578,7 @@ Before Ontological Unpacking, a model-derived Conceptual Rule may contain variab
 
 Ontological Unpacking reduces this ambiguity by exposing distinctions that may otherwise remain compressed in the model representation, such as entities and their bearers; qualities and measured values; measurement processes and measurement results; roles and states; dependence relations; identity conditions, and other domain-relevant ontological distinctions.
 
-The result is not a “truer” rule, but a rule whose commitments are more explicit and therefore more available for inspection and criticism. This contribution can be summarized as follows, Ontological Unpacking increases assessability by increasing ontological explicitness. At the same time, Ontological Unpacking increases explicitness, not certainty.
+The result is not a “truer” rule, but a rule whose commitments are more explicit and therefore more available for inspection and criticism. This contribution can be summarized as follows: Ontological Unpacking increases assessability by increasing ontological explicitness. At the same time, Ontological Unpacking increases explicitness, not certainty.
 
 OU does not by itself establish that the resulting interpretation is scientifically correct or justificatorily acceptable. Its role is to make explicit what the explanatory representation commits us to so that those commitments can subsequently be confronted with independent domain knowledge, empirical evidence, contextual constraints, and epistemic-normative criteria.
 
@@ -600,7 +600,7 @@ Its architectural contribution can therefore be stated succinctly: OU does not j
 
 ## 7. What role does the Concept-Rule Base (CRB) concept play in determining the broader applicability of the framework beyond CEMs?
 
-The proposed framework was initially developed and illustrated using Concept Embedding Models (CEMs), from which Conceptual Rules can be reconstructed at a human-interpretable concept level. However, the use of CEMs as the motivating case should not be interpreted as restricting the framework to that particular model family. The later notion of a Concept-Rule Base (CRB) was introduced precisely to generalize this point, see [Concept-Rule Base (CRB): Conceptualization, Knowledge Graphs, Generalization, and Research Scope](https://github.com/em4ttos/Ontological-Mediation-in-Explainable-Artificial-Intelligence/blob/main/docs/formalization/concept-rule-base.md).
+The proposed framework was initially developed and illustrated using Concept Embedding Models (CEMs), from which Conceptual Rules can be reconstructed at a human-interpretable concept level. However, the use of CEMs as the motivating case should not be interpreted as restricting the framework to that particular model family. The later notion of a Concept-Rule Base (CRB) was introduced precisely to generalize this point; see [Concept-Rule Base (CRB): Conceptualization, Knowledge Graphs, Generalization, and Research Scope](https://github.com/em4ttos/Ontological-Mediation-in-Explainable-Artificial-Intelligence/blob/main/docs/formalization/concept-rule-base.md).
 
 A CRB is not an additional processing stage within the Ontological Mediation framework. Rather, it provides a conceptual and methodological reference for determining whether other AI or computational artifacts expose, generate, or permit the faithful reconstruction of the kind of explicit concept-level structure required for the framework to be applicable.
 
@@ -618,7 +618,7 @@ The CEM case therefore serves as a motivating instance of a broader representati
 
 The CRB conceptualization abstracts from the particular mechanisms by which such structures are produced. A concept-level structure may originate from a CEM, another concept-based architecture, a rule-based system, a statistical model, a Knowledge Graph, a neuro-symbolic system, or another computational process, provided that the relevant CRB admissibility criteria are satisfied.
 
-CRB therefore answers a question of *framework applicability, does this computational artifact provide, or permit the faithful reconstruction of, the kind of concept-level explanatory structure that the Ontological Mediation framework requires as its starting material***?**
+CRB therefore answers a question of *framework applicability: does this computational artifact provide, or permit the faithful reconstruction of, the kind of concept-level explanatory structure that the Ontological Mediation framework requires as its starting material*?
 
 If the answer is positive, the artifact may potentially be treated within the framework in a manner analogous to the Conceptual Rules reconstructed from the motivating CEM case.
 
@@ -634,7 +634,7 @@ Thus, CRB provides a diagnostic and classificatory framework for generalizing th
 
 The broader implication is that the framework is not conceptually tied to CEMs. CEMs constitute one important and motivating instance of a more general class of computational systems capable of supplying suitable concept-level explanatory structures.
 
-The role of CRB can therefore be summarized as follows, CRB characterizes the kind of concept-level structure that makes a computational artifact potentially compatible with the framework; it does not constitute a processing stage within that framework.
+The role of CRB can therefore be summarized as follows: CRB characterizes the kind of concept-level structure that makes a computational artifact potentially compatible with the framework; it does not constitute a processing stage within that framework.
 
 <a id="q8"></a>
 
@@ -648,7 +648,7 @@ Within the reconstructed conceptual representation, *~Age* indicates that *Age* 
 
 By contrast, if *Age* is omitted from the reconstructed rule, the rule contains no explicit proposition concerning A*ge* in that conceptual relation. Omission does not itself imply negative relevance, irrelevance to the model as a whole, or any particular reason for its absence from the extracted rule.
 
-The distinction can therefore be stated succinctly, *~Age* expresses an explicit model-level statement within the reconstructed rule; omission of *Age* makes no explicit statement about *Age* within that rule.
+The distinction can therefore be stated succinctly: *~Age* expresses an explicit model-level statement within the reconstructed rule; omission of *Age* makes no explicit statement about *Age* within that rule.
 
 This distinction becomes especially important when the rule is interpreted ontologically. *~Age* must not be read as saying that the patient “has no age,” that age does not exist as a property or quality of the patient, or that *Age* is ontologically irrelevant to the domain. Depending on the adopted domain ontology, *Age* may still correspond to an instantiated age-related quality or attribute of the patient independently of its polarity or presence in a particular model-derived rule.
 
@@ -662,6 +662,6 @@ Accordingly, the framework distinguishes three different levels:
 
 Ontological Unpacking is important precisely because it prevents these levels from being conflated. A Conceptual Rule expresses how concepts are represented within a model-derived explanatory structure. Ontological Unpacking asks a different question: what kinds of entities, properties, relations, and dependencies are presupposed in the domain by the concepts appearing in that structure?
 
-The central distinction is therefore, conceptual polarity or omission is not equivalent to ontological existence or non-existence. A concept may appear positively, appear with a negative or non-positive polarity, or be omitted from a reconstructed rule while the corresponding domain property remains ontologically instantiated and relevant.
+The central distinction is therefore that conceptual polarity or omission is not equivalent to ontological existence or non-existence. A concept may appear positively, appear with a negative or non-positive polarity, or be omitted from a reconstructed rule while the corresponding domain property remains ontologically instantiated and relevant.
 
 For this reason, *~Age* should be interpreted as a statement about the organization of the reconstructed conceptual explanation, according to the semantics of the source method, and not as a literal ontological negation of the patient’s age.
